@@ -1,4 +1,3 @@
-<img width="2762" height="404" alt="image" src="https://github.com/user-attachments/assets/b21510a3-969e-450b-b7c6-13d827657559" /><img width="640" height="390" alt="Customer Segmentation" src="https://github.com/user-attachments/assets/af55b2a3-95cf-44f9-964c-a9796193f0bb" /># Insurance-Claims-Dashboard
 🏢 Business Scenario: AryaShield Insurance Ltd.
 
 🧩 Background
@@ -32,10 +31,20 @@ Optimize agent performance
 Segment customers for better targeting
 Improve overall profitability
 
-✅ Data Model
-8 interlinked tables: Policies, Claims, Customers, Agents, Regions, PolicyTypes, Time, UnderwritingScores
+📊 Data Model Overview
+
+This project is built on a relational data model consisting of 8 interlinked tables, designed to support comprehensive insurance analytics and reporting:
+Policies – Core policy details including start/end dates, premiums, and linked customer IDs
+Claims – Records of filed claims, settlement status, and associated policy IDs
+Customers – Demographic and contact information for policyholders
+Agents – Sales agents responsible for policy issuance and customer onboarding
+Regions – Geographic mapping for customers, agents, and claims
+PolicyTypes – Classification of insurance products (e.g., health, auto, life)
+Time – Date dimension used for time-based analysis and reporting
+UnderwritingScores – Risk assessment scores tied to individual policies
 
 ✅ Dashboards
+
 Summary Dashboard
 <img width="640" height="390" alt="Summary" src="https://github.com/user-attachments/assets/b7b294ae-2f66-4cbf-9fbe-73eaa8bab400" />
 
@@ -48,14 +57,15 @@ Customer Segmentation
 Profitability & Portfolio Dashboard
 <img width="640" height="390" alt="Profitability   Portfolio" src="https://github.com/user-attachments/assets/160a62e5-ac71-44ee-a835-26eb6056335e" />
 
-Key Insights
+🔍 Key Insights: 
+
 Life policies had the highest average settlement time (32.35 days), contributing to delays.
 Jan showed the largest gap between claims raised and settled (312 claims), indicating operational inefficiencies.
 Rejected claims (1,690) slightly exceeded Settled (1,674) and Pending (1,636), suggesting high claim rejection rates.
 Health policies had the largest divergence between premiums collected and claims paid ($38.9M), indicating risk imbalance.
 2024 saw the highest premium collection ($91.26M), but also the largest gap vs claims paid ($49.19M).
 
-Conclusion
+✅ Conclusion
 AryaShield’s current insurance operations reveal key challenges: slow claim settlements, uneven risk exposure, and limited customer insights. By adopting a Power BI–driven analytics solution, the company can:
   Accelerate claim settlements by identifying delays across regions and policy types
   Proactively manage risk through premium-to-claims analysis
