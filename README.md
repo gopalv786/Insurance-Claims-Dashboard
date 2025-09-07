@@ -1,10 +1,10 @@
-🏢 Business Scenario: AryaShield Insurance Ltd.
+# 🏢 Business Scenario: AryaShield Insurance Ltd.
 
-🧩 Background
+## 🧩 Background
 
 AryaShield Insurance Ltd. is a mid-sized insurance provider operating across five regions in India. They offer Health, Auto, Life, and Travel policies to over 100,000 customers. Despite strong growth in policy sales, the company is facing operational inefficiencies and rising claim costs, which are impacting profitability and customer satisfaction
 
-🚨 Business Problems
+## 🚨 Business Problems
 
 1. High Claim Settlement Time
 Claims are taking too long to settle, especially in the Health and Auto segments.
@@ -22,28 +22,28 @@ Incentive programs are misaligned with actual performance.
 Marketing and underwriting teams don’t have a unified view of customer segments.
 High-income customers are under-targeted, while low-income segments show higher claim frequency.
 
-🎯 Project Goal
+## 🎯 Project Goal
 
 To build a Power BI analytics solution that helps AryaShield:
-Reduce claim settlement time
-Identify and manage high-risk policies
-Optimize agent performance
-Segment customers for better targeting
-Improve overall profitability
+- Reduce claim settlement time
+- Identify and manage high-risk policies
+- Optimize agent performance
+- Segment customers for better targeting
+- Improve overall profitability
 
-📊 Data Model Overview
+## 📊 Data Model Overview
 
-This project is built on a relational data model consisting of 8 interlinked tables, designed to support comprehensive insurance analytics and reporting:
-Policies – Core policy details including start/end dates, premiums, and linked customer IDs
-Claims – Records of filed claims, settlement status, and associated policy IDs
-Customers – Demographic and contact information for policyholders
-Agents – Sales agents responsible for policy issuance and customer onboarding
-Regions – Geographic mapping for customers, agents, and claims
-PolicyTypes – Classification of insurance products (e.g., health, auto, life)
-Time – Date dimension used for time-based analysis and reporting
-UnderwritingScores – Risk assessment scores tied to individual policies
+- This project is built on a relational data model consisting of 8 interlinked tables, designed to support comprehensive insurance analytics and reporting:
+  - Policies – Core policy details including start/end dates, premiums, and linked customer IDs
+  - Claims – Records of filed claims, settlement status, and associated policy IDs
+  - Customers – Demographic and contact information for policyholders
+  - Agents – Sales agents responsible for policy issuance and customer onboarding
+  - Regions – Geographic mapping for customers, agents, and claims
+  - PolicyTypes – Classification of insurance products (e.g., health, auto, life)
+  - Time – Date dimension used for time-based analysis and reporting
+  - UnderwritingScores – Risk assessment scores tied to individual policies
 
-✅ Dashboards
+# ✅ Dashboards
 
 ## Summary Dashboard
 <img width="640" height="390" alt="Summary" src="https://github.com/user-attachments/assets/b7b294ae-2f66-4cbf-9fbe-73eaa8bab400" />
